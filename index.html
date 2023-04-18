@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		당신은 특별합니다
+	</title>
+	<style>
+		@font-face{
+			src: url("./font/smdinaru.otf");
+			font-family: "smdinaru";
+		}
+		@font-face{
+			src: url("./font/sm3kgothic.otf");
+			font-family: "sm3kgothic";
+		}
+		html, body, p, div, section,h2{margin: 0; padding: 0;  scroll-behavior: smooth;}
+		header{background: black; opacity: 75%; color: white;  display: block; position: fixed; width: 100%; top:0%; z-index: 3; font-weight: normal;}
+		h1{font-family: sm3kgothic; margin: auto; text-align: center;font-size: 3.2em; letter-spacing: -0.065em; line-height:1.4; font-weight: normal; }
+		p{font-family: smdinaru; font-size: 25px; font-weight: normal; color: black; line-height: 1.3; text-align: center;}
+		img{width: 100%;}
+		a{text-decoration-line: none; color: black}
+
+		.gradient{position:fixed;width:30%; height:100%; background:linear-gradient(to right, #000000, #ffff); mix-blend-mode: multiply; animation: gradient 2s linear infinite alternate;;}
+		.gradient2{position:fixed;width:30%; height:100%; background:linear-gradient(to left, #000000, #ffff); mix-blend-mode: multiply; right:0;  animation: gradient 2s linear infinite alternate;;}
+
+		.header-title{font-size: 1.5em; padding: 8px; margin-left: 10px; font-family: smdinaru;font-weight: normal; }
+		.bg-lightgray{background: lightgray; width: 1440px; height: 100%; position: relative;  }
+		.wrapper{width: 1040px; height: 2300px; margin: auto; padding-top: 200px}
+		.speech-bubble1{border: 2px solid black; width: 550px; height: 230px; background: #F4F4F4; margin: auto; text-align: center;  border-radius: 50%; font-family: sm3kgothic; line-height: 230px; font-size: 2.2em; letter-spacing: -0.05em; color: F4F4F4; z-index: 1;animation: float 1s ease-in-out infinite alternate;}
+		.speech-bubble1:hover{filter: invert(100%);transition: all 0.5s}
+		.speech-bubble2{border: 2px solid black; width: 550px; height: 230px; background: #F4F4F4; margin: auto; text-align: center;  border-radius: 50%; margin-top: 250px;z-index: 1;animation: float 1.5s ease-in-out infinite alternate;}
+		.speech-bubble2:hover{filter: invert(100%);transition: all 0.5s}
+		.speech-bubble3{border: 2px solid black; width: 550px; height: 230px; background: #F4F4F4; text-align: center;  border-radius: 50%; margin-top: -30px; margin-left:10%;z-index: 3;animation: float 1s ease-in-out infinite alternate;}	
+		.speech-bubble3:hover{filter: invert(100%);transition: all 0.5s}
+		.first-message1{font-family: sm3kgothic; font-size: 2.2em; line-height: 1.2; letter-spacing: -0.075em; text-align: center;  padding: 90px}
+		.first-message2{font-family: sm3kgothic; font-size: 2.2em; line-height: 1.3; letter-spacing: -0.075em; text-align: center;  padding-top: 75px}
+		.first-message3{font-family: sm3kgothic; font-size: 2.2em; line-height: 1.2; letter-spacing: -0.075em; text-align: center;padding-top: 90px }
+		.first-h1{margin-top: 250px}
+		.ok-button{width: 150px;border: 2px solid black; text-align: center; margin: auto; margin-top: 160px; font-family: smdinaru; font-size: 1.5em; padding: 10px 30px; background: #F4F4F4; }
+		.ok-button:hover{filter: invert(100%);transition: all 0.5s}
+		
+		.shout{background: #202020; width: 1440px; height: 100%; position: relative; color:#F4F4F4}
+		.wrapper2{width: 1100px; margin: auto; z-index: 2;}
+		.shout1{text-align: left; padding-top: 50px}
+		.shout2{font-size: 15em; color:white; padding-bottom:50px }
+		.wrapper3{width: 1040px; height: 1750px; margin: auto; }
+		.second-h2{padding-top: 150px; text-align: left; }
+		.last{padding-top: 100px; display: flex; margin: auto; justify-content: center;}
+		.last2{padding: 20px 0px; display: flex; margin:auto; justify-content: center; padding-bottom: 100px;}
+		.right{text-align: right; background: black; width: 100; color: white; margin: auto; left: 0;padding: 10px;}
+		.test-speech{width: 100%;}
+		.test{width:200px; height: 300px; padding:20px }
+		.col2{}
+	
+@keyframes gradient {
+		from{opacity: 0}		
+		to{opacity: 1} 
+	}
+
+@keyframes float{
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header-title">당신은 특별합니다</div>
+	</header>
+
+	
+	<section class="bg-lightgray">
+		<div class="gradient"></div>
+		<div class="gradient2"></div>
+		<div class="wrapper">
+			<div class="speech-bubble1">
+				...죽음이 두려우신가요?
+			</div> 
+			<div class="speech-bubble2">
+				<p class="first-message2">...평생토록 건강한 육체를<br>원하시나요?</p>
+			</div> 
+			<div class="speech-bubble3">
+				<p class="first-message3">평범한 삶이 지겨우신가요?</p>
+			</div> 
+			<div class="speech-bubble2">
+				<p class="first-message2">혹은, 일상이 조금 더<br>짜릿해졌으면 하나요?</p>
+			</div> 
+			<h1 class="first-h1">그런 당신,<br>「특별한 존재」가 되어보시겠어요?</h1>
+			<a href="#1"><div class="ok-button">
+				<h2>좋아요</h2>
+			</div></a>
+		</div>
+	</section>
+	<section class="shout">
+	<div class="letsfindout" id="1" >
+		<div class="wrapper2">
+		<h1 class="shout1"><i>그렇다면</i></h1>
+		<h1 class="shout2" ><i>알아보자!</i></h1>
+		</div>
+	</div>
+	</section>
+	<section class="bg-lightgray">
+		<div class="wrapper3">
+			<h1 class="second-h2">내 성향에 딱 맞는<br>특별한 존재는 뭘까?</h1>
+			<p style="padding-top: 150px;">나는 주로..</p>
+			<div class="wrapper2" style="padding-top: 100px;">
+			<img src="question.jpg">
+		</div>
+	</section>
+	<section class="bg-lightgray">
+		<h1 class="test-speech">당신의 성향테스트 결과를<br>아래에서 골라주세요</h1>
+		<div class="wrapper2 last">
+			
+			<img class="test col2" src="1.jpg">
+			<img class="test col2" src="2.jpg">
+		</div>
+		<div class="wrapper2 last2">
+			<img class="test col3" src="3.jpg">
+			<img class="test col3" src="4.jpg">
+			<img class="test col3" src="5.jpg">
+
+		</div>
+	</section>
+	<footer>
+		<div class="header-title right">당신은 특별합니다</div>
+	</footer>
+</body>
+</html>
